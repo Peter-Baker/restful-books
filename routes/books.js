@@ -23,10 +23,6 @@ router.get('/', (req, res) => {
   res.json(books);
 });
 
-router.get('/', (req, res) => {
-  res.send('This should return an array of books (in JSON).');
-});
-
 router.get('/gatsby', (req, res) => {
   res.send('The Great Gatsby');
 });
